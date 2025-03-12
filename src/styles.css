@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,50 @@
 }
 
 body {
-  background-color: #222;
   color: #eee;
   min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(#000000b4, #000000e8), url('img/shawn-nmpW_WwwVSc-unsplash.jpg');
+}
+
+header {
+  background-color: #00000000;
+  padding: 12px;
+}
+
+nav {
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 8px;
+  color: inherit;
+  font-family: 'Young Serif', serif;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.164);
+  cursor: pointer;
+}
+
+.active {
+  border-color: #eb6222;
+}
+
+main {
+  background-color: #00000086;
+  border: 2px solid white;
+  padding: 32px;
+  border-radius: 24px;
+  max-width: 800px;
+  margin: 40px auto;
 }
